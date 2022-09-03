@@ -1,11 +1,17 @@
 /****** Main Styling ******/
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+html, body {
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    height: 100%;
+    margin: 25px;
     color: #222;
     background-color: #ECF0F1;
     text-align: center;
+    background-color: #FBE8A6;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
   
   .container {
@@ -14,7 +20,9 @@ body {
   }
   
   .footer {
-    margin-top: 60px;
+    margin-top: auto;
+    text-align: center;
+    flex-shrink: 0;
   }
   
   a {
@@ -28,7 +36,7 @@ body {
   }
   
   input#button {
-    width: 230px;
+    width: 253px;
   }
   
   .view {
